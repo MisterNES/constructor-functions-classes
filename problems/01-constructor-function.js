@@ -41,7 +41,11 @@ console.log(message2);
 
 ***********************************************************************/
 
-
+function SMS(recipient, sender, text) {
+  this.recipient = recipient;
+  this.sender = sender;
+  this.text = text;
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
